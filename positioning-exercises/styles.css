@@ -1,0 +1,65 @@
+body{
+    position: relative;
+    width: 1600px;
+    height: 800px;
+    border: solid black;
+}
+
+.div1{
+    width: 100%;
+}
+
+.header{
+    position: absolute;
+    background-color: aquamarine;
+    text-align: center;
+    border: solid black;
+    height: 10%;
+    width: 100%;
+
+}
+
+
+.c1{
+    background-color:orange;
+    top: 10%;
+    bottom: 90%;
+    position: absolute;
+    border: solid black;
+    width: 20%;
+    height: 100%;
+}
+
+
+
+.c2{
+    background-color: blue;
+    top: 10%;
+    position: absolute;
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+    border: solid black;
+
+}
+
+.c3{
+    background-color: yellow;
+    top: 10%;
+    position: absolute;
+    margin-left: 80%;
+    width: 20%;
+    height: 100%;
+    border: solid black;
+
+}
+
+.footer{
+    position: absolute;
+    top: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border: solid black;
+    height: 10%;
+    width: 100%;
+}

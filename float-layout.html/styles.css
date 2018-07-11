@@ -1,0 +1,47 @@
+body{
+    width: 1600px;
+    height: 800px;
+    border: solid black;
+}
+
+
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    border: solid black;
+    height: 100px;
+    width: 100%;
+
+}
+
+
+
+
+.footer{
+    margin-top: 610px;
+    background-color: aquamarine;
+    text-align: center;
+    border: solid black;
+    height: 100px;
+    width: 100%;
+}
+
+.c1{
+
+    width: 300px;
+    height: 600px;
+    background-color: blueviolet;
+    border: solid black;
+    float: left;
+    
+
+ }
+
+ .c2{
+    width: 1000px;
+    height: 300px;
+    background-color: burlywood;
+    border: solid black;
+    float: left;
+   
+ }
