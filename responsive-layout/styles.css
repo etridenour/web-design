@@ -1,0 +1,140 @@
+body{
+    font-size: 12px;
+}
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  .our-company{
+    display: flex;
+    background: white;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 7vh;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+    border-bottom: solid black;
+    justify-content: space-between;
+  }
+ 
+
+  .nav{
+      color: blue;
+      display: inline;
+
+  }
+.we-are-awesome{
+    background:white;
+    width: 100%;
+    height: 40vh;
+    line-height: 40vh;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-bottom: solid black;
+}
+
+.awesomeness{
+    background:white;
+    width: 100%;
+    height: 14vh;
+    line-height: 14vh;;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.blank-box{
+    display:flex;
+    background:white;
+    width: 100%;
+    border-bottom: solid black;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+
+}
+
+.pics{
+    
+    background:white;
+    width: 100%;
+    text-align: center;
+   
+}
+
+img{
+    margin: 5%;
+    max-width: 35%;
+    height: auto;
+   
+    
+    border: solid black;
+    
+}
+
+.footer{
+    background:white;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-top: solid black;
+}
+
+@media screen and (max-width:1000px) {
+    
+    img{
+         width:40%;
+     }
+     
+ }
+ 
+
+
+@media screen and (max-width:630px) {
+    
+   body{
+       font-size: px;
+   }
+    img{
+        /* width:70%; */
+    }
+    
+}
+@media screen and (max-width:520px) {
+    
+   body{
+       font-size: 9px;
+   }
+    img{
+        /* width:70%; */
+    }
+    
+}
+
+@media screen and (max-width:420px) {
+   
+    body{
+        font-size: 8px;
+    }
+   .blank-box{
+       font-size:1.7em;
+   }
+    img{
+        /* width:70%; */
+    }
+    
+}

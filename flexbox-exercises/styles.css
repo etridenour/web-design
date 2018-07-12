@@ -1,0 +1,41 @@
+
+
+.flex-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: bisque;
+    border: solid black;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: bisque;
+    border: solid black;
+    align-self: flex-end;
+}
+
+.c1{
+    width: 300px;
+    height:600px;
+    background-color: blue;
+    border: solid black;
+}
+
+.c2{
+    width: 1300px;
+    height:400px;
+    background-color: rgb(255, 0, 179);
+    border: solid black;
+}
