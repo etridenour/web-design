@@ -76,7 +76,7 @@ body{
 
 img{
     margin: 5%;
-    max-width: 35%;
+    width: 35%;
     height: auto;
    
     
@@ -110,7 +110,7 @@ img{
        font-size: px;
    }
     img{
-        /* width:70%; */
+        width:40%;
     }
     
 }
@@ -120,7 +120,7 @@ img{
        font-size: 9px;
    }
     img{
-        /* width:70%; */
+        width:40%;
     }
     
 }
