@@ -1,0 +1,45 @@
+.nav-color{
+    color: lightblue! important;
+}
+
+a:hover.nav-color{
+    color: rgb(94, 94, 233)! important;
+}
+
+.row2{
+    text-align: center;
+    border: solid black;
+    padding: 7%;
+    font-size: 3em;
+
+}
+
+.row3-head{
+    line-height: 4px;
+    font-size: 3em;
+    text-align: center;
+    padding: 4%;
+}
+
+.row3{
+    border-bottom: solid black;
+}
+
+.list{
+    font-size:1em;
+    padding: 2%;
+}
+
+img{
+    padding: 5%;
+    width: 100%;
+}
+.rowpic{
+    border-bottom: solid black;
+}
+
+.footer{
+    font-size: 2em;
+    border-bottom: solid black;
+    text-align: center;
+}

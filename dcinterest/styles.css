@@ -1,0 +1,17 @@
+/* nav{
+    margin-left: 1%;
+    margin-right: 1%;
+} */
+
+.card-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.card-box img{
+    margin-bottom: 7%;
+    width: 275px;
+}
+
