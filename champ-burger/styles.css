@@ -1,0 +1,163 @@
+.juicyImgBox{
+    width: 100%;
+    position: relative;
+}
+
+.champ {
+    font-family: cursive;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-top: 11%;
+}
+.htx{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.titleText{
+    border: solid white;
+    border-radius: 50%;
+    height:35%;
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+.logo{
+    width:20%;
+}
+.navbar{
+    opacity: .9;
+}
+.navText{
+    margin-top: 13%;
+}
+.since{
+    position: absolute;
+    font-size: 30px;
+    font-family: cursive;
+    left: 35%;
+    bottom: -30%;
+}
+
+.burger1C{
+    position:relative;
+    height: 75vh;
+
+}
+.burger1{
+    width: 25%;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 22%;
+}
+.quality{
+    position: absolute;
+    color: rgb(204, 24, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 53%;
+    top: 21%;
+}
+.history{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 54%;
+    top: 32%;
+}
+.yelp{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 54%;
+    top: 70%;
+    color: grey;
+}
+.yelpname{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 54%;
+    top: 79%;
+    color: grey;
+}
+.learnButton{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 59%;
+    top: 59%;
+}
+.flipImgBox{
+    width: 100%;
+    position: relative;
+}
+.fresh{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.order{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.mcd{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.footer{
+    position: relative;
+}
+.loc{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+}
+.phone{
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+.centerAlign{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.carBox{
+    margin-right:20%;
+    margin-left:20%;
+    margin-bottom: 6%;
+}
+.juice{
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.fbox{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.ketchup{
+    width:20%;
+    margin-left:5%;
+}
+.cupid{
+    width:30%;
+    margin-left: 8%;
+}
+.fries{
+    width:30%;
+    margin-left: 5%;   
+}
