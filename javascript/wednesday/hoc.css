@@ -1,0 +1,53 @@
+.header{
+    background-color: rgb(95, 177, 204);
+    height: 12vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.high{
+    color: white;
+    margin-left: 10%;
+    margin-top: 35px;;
+}
+.home{
+    color:white;
+    margin-top: 3%;
+}
+.greyBox{
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 25vh;
+    background-color: rgb(201, 201, 201);
+}
+h3{
+    color: rgb(82, 82, 82);
+    margin-left: 2%;
+    line-height: 9vh;
+}
+.p1{
+    color: rgb(82, 82, 82);
+    margin-left: 2%;   
+}
+.whiteBox{
+    margin-top: 1%;
+    margin-left: 5.5%;
+    margin-right: 7%;
+    height: 15vh;
+}
+h4{
+    color: rgb(41, 41, 207);
+    margin-left: 2%;
+    line-height: 9vh;
+}
+.orangeBox{
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 3vh;
+    background-color: orange;
+}
+.white{
+    color: white;
+}
+
