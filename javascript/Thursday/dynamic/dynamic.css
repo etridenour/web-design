@@ -1,0 +1,23 @@
+
+
+img{
+    width:70%;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.picBox{
+    margin: 5%;
+    border: solid black;
+    height: 100vh;
+    position: relative;
+}
+
+.as1{
+    opacity: .5;
+}
+
+.bigPic{
+    margin-top: 30%;
+}
+

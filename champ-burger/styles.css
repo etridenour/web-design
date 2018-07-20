@@ -27,6 +27,7 @@
 }
 .logo{
     width:20%;
+    margin-right: 8%;
 }
 .navbar{
     opacity: .9;
@@ -161,3 +162,11 @@
     width:30%;
     margin-left: 5%;   
 }
+
+@media screen and (max-width:900px) {
+    
+    .champ {
+         font-size: 45px;
+     }
+     
+ }

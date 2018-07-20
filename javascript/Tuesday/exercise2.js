@@ -106,8 +106,7 @@ function leetspeak(str){
             newString += 5;
         } else if (str[x] == 't') {
             newString += 7;
-        }
-        else {
+        }else {
             newString += str[x];
         }
     } console.log(newString);
@@ -119,7 +118,7 @@ leetspeak('this took me way longer than it should have');
 function long(str){
     var vString = '';
     for (x = 0; x < str.length; x++){
-        if (str[x] == str[x+1]){
+        if (str[x] ==  str[x+1]){
             vString += str[x];
             vString += str[x];
             vString += str[x];
