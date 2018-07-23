@@ -92,6 +92,17 @@ body{
     position: absolute;
     font-family: optima;
 }
+
+
+.dPoints{
+    color: white;
+    text-shadow: 4px 4px #000000;
+    font-size: 70px;
+    left: 25%;
+    top: 15%;
+    position: absolute;
+    font-family: optima;
+}
 .playerName{
     color: white;
     text-shadow: 4px 4px #000000;
@@ -101,10 +112,20 @@ body{
     top: 47%;
     position: absolute;
 }
+.pPoints{
+    color: white;
+    text-shadow: 4px 4px #000000;
+    font-size: 70px;
+    left: 25%;
+    top: 47%;
+    position: absolute;
+    font-family: optima;
+}
 .allC{
     /* box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4); */
     width: 8%;
     border: black;
+    border-radius: 6%;
 }
 .dCard1{
     left: 40%;
@@ -117,6 +138,26 @@ body{
     top: 6%;
     position: absolute;
     
+}
+.dCard3{
+    left: 60%;
+    top: 6%;
+    position: absolute;
+}
+.dCard4{
+    left: 70%;
+    top: 6%;
+    position: absolute;
+}
+.dCard5{
+    left: 80%;
+    top: 6%;
+    position: absolute;
+}
+.dCard6{
+    left: 30%;
+    top: 6%;
+    position: absolute;
 }
 .dHand{
     margin-left: 90%;
@@ -150,5 +191,23 @@ body{
     left: 30%;
     top: 42%;
     position: absolute;
+}
+.bust{
+    color: red;
+    text-shadow: 4px 4px #000000;
+    font-size: 100px;
+    left: 45%;
+    top: 75%;
+    position: absolute;
+    font-family: optima;
+}
+.win{
+    color: orange;
+    text-shadow: 4px 4px #000000;
+    font-size: 200px;
+    left: 25%;
+    top: 18%;
+    position: absolute;
+    font-family: optima;
 }
 
