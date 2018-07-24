@@ -11,6 +11,8 @@ pAceCount = 0;
 dAceCount = 0;
 var busted = document.querySelector('.bust');
 var win = document.querySelector('.win');
+var rep = document.querySelector(".replay");
+var arrow = document.querySelector(".asiz");
 
 function getDeck(){
     for (x = 0; x < suits.length; x++){
@@ -43,6 +45,8 @@ dealClick.addEventListener('click',function(e){
     dealerCount = 0;
     busted.textContent = '';
     win.textContent = '';
+    rep.textContent = '';
+    arrow.src = '';
     pCard3.src = '';
     pCard4.src = '';
     pCard5.src = '';
@@ -156,8 +160,10 @@ standClick.addEventListener('click',function(e){
     
     if ((playerPoints >= dealerPoints && playerPoints <= 21) || dealerPoints > 21){
         win.textContent = 'YOU WIN!';
+        replay();
     } else if (dealerPoints > playerPoints) {
         win.textContent = 'YOU LOSE!';
+        replay();
     }
 
 })
@@ -344,10 +350,17 @@ function bust(){
     if (playerPoints > 21){
         busted.textContent = 'YA BUSTED!';
         win.textContent = 'YOU LOSE!';
+        replay();
     } else if (dealerPoints > 21){
         busted.textContent = 'DEALER BUSTED!';
         win.textContent = 'YOU WIN!';
+        replay();
     }
+}
+
+function replay(){
+    rep.textContent = 'Replay';
+    arrow.src = 'arrow.png';
 }
 
 

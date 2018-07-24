@@ -196,7 +196,7 @@ body{
     color: red;
     text-shadow: 4px 4px #000000;
     font-size: 100px;
-    left: 45%;
+    left: 40%;
     top: 75%;
     position: absolute;
     font-family: optima;
@@ -209,5 +209,25 @@ body{
     top: 18%;
     position: absolute;
     font-family: optima;
+}
+.replay{
+    color: red;
+    text-shadow: 4px 4px #000000;
+    font-size: 60px;
+    left: 5%;
+    top: 85%;
+    position: absolute;
+    font-family: optima;
+}
+.arrow{
+    position: absolute;
+    z-index: 0;
+    top: 82%;
+    left: 17%;
+    
+}
+.asiz{
+    width: 8%;
+    transform: rotate(-30deg);
 }
 
