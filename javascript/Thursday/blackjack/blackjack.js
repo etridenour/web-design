@@ -31,17 +31,33 @@ var standClick = document.querySelector('#stand-button');
 
 
 //Deal
-
+var pCard3 = document.querySelector(".pCard3");
+var pCard4 = document.querySelector(".pCard4");
+var pCard5 = document.querySelector(".pCard5");
+var pCard6 = document.querySelector(".pCard6");
 
 dealClick.addEventListener('click',function(e){
     dealerHand = [];
     playerHand = [];
+    hitClickCount = 0;
+    dealerCount = 0;
     busted.textContent = '';
     win.textContent = '';
-    // pCard3.src = '';
-    // pCard4.src = '';
-    // pCard5.src = '';
-    // pCard6.src = '';
+    pCard3.src = '';
+    pCard4.src = '';
+    pCard5.src = '';
+    pCard6.src = '';
+
+    var dCard3 = document.querySelector(".dCard3");
+    dCard3.src = '';
+    var dCard4 = document.querySelector(".dCard4");
+    dCard4.src = '';
+    var dCard5 = document.querySelector(".dCard5");
+    dCard5.src = '';
+    var dCard6 = document.querySelector(".dCard6");
+    dCard6.src = '';
+    
+    
 
     var dCard1 = document.querySelector(".dCard1");
     dCard1.src = 'cards/purple_back.jpg';
