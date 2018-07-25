@@ -87,19 +87,19 @@ class Deck{
         for (x = 0; x < suits.length; x++){
             for (y = 0; y < points.length; y++){
                 var card = {Points: points[y], Suit: suits[x]};
-			    myDeck.push(card);
+			    this.myDeck.push(card);
             }
         }
-        return deck;
+        return myDeck;
     }
 
     draw(){
-        console.log(myDeck[Math.floor(Math.random()*myArray.length)]);
+        console.log(this.myDeck[Math.floor(Math.random()*this.myDeck.length)]);
     }
 
 }
 
-Deck.makeDeck();
+makeDeck();
 draw();
 
 var myDeck = new Deck(); 

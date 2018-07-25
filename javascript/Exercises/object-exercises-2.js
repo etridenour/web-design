@@ -21,7 +21,6 @@ Daughter last name : ${daughter['lastName']}
 Daughter eye color : ${daughter['eyeColor']}
 Daughter hair color : ${daughter['hairColor']}`);
 
-s
 
 //Person
 console.log('-----Person-----');
