@@ -79,6 +79,34 @@ myHand.getPoints()
 console.log('--------Deck Constructor----------')
 
 class Deck{
-    
+    constructor(){
+        this.myDeck = [];
+    }
+
+    makeDeck (){
+        for (x = 0; x < suits.length; x++){
+            for (y = 0; y < points.length; y++){
+                var card = {Points: points[y], Suit: suits[x]};
+			    myDeck.push(card);
+            }
+        }
+        return deck;
+    }
+
+    draw(){
+        console.log(myDeck[Math.floor(Math.random()*myArray.length)]);
+    }
+
 }
 
+Deck.makeDeck();
+draw();
+
+var myDeck = new Deck(); 
+// myDeck.draw(); 
+// Card {point: 6, suit: "clubs"} 
+// myDeck.draw() 
+// Card {point: 1, suit: "spades"} 
+// myDeck.shuffle() 
+// myDeck.numCardsLeft() 
+// 50

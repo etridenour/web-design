@@ -21,7 +21,7 @@ Daughter last name : ${daughter['lastName']}
 Daughter eye color : ${daughter['eyeColor']}
 Daughter hair color : ${daughter['hairColor']}`);
 
-
+s
 
 //Person
 console.log('-----Person-----');
@@ -52,15 +52,15 @@ class Person{
     
     createGreetingsForFriends(){
         var friendM = this.friends.map(function(friend){
-            console.log(this.name.createGreeting(friend))
+            console.log(alfie.createGreeting(friend))
         })
     }
 }
 
-// var me = new Person('Eric');
-// var you = new Person('Big Worm');
+var me = new Person('Eric');
+var you = new Person('Big Worm');
 
-// me.lazyGreet(you);
+me.lazyGreet(you);
 
 var alfie = new Person('Alfie'); 
 var anushka = new Person('Anushka'); 
