@@ -231,3 +231,13 @@ body{
     transform: rotate(-30deg);
 }
 
+.blackj{
+    color: yellow;
+    text-shadow: 4px 4px #000000;
+    font-size: 100px;
+    left: 33%;
+    top: 45%;
+    position: absolute;
+    font-family: optima;
+}
+

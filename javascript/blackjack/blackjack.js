@@ -13,6 +13,7 @@ var busted = document.querySelector('.bust');
 var win = document.querySelector('.win');
 var rep = document.querySelector(".replay");
 var arrow = document.querySelector(".asiz");
+var blackjack = document.querySelector(".blackj");
 
 function getDeck(){
     for (x = 0; x < suits.length; x++){
@@ -46,6 +47,7 @@ dealClick.addEventListener('click',function(e){
     busted.textContent = '';
     win.textContent = '';
     rep.textContent = '';
+    blackjack.textContent = '';
     arrow.src = '';
     pCard3.src = '';
     pCard4.src = '';
@@ -89,6 +91,7 @@ dealClick.addEventListener('click',function(e){
     pAce();
     dispPPoints();
     bust();
+    blackj();
    
 })
 
@@ -346,6 +349,7 @@ function shuffleArray(array) {
     return array;
 }
 
+//Bust
 function bust(){
     if (playerPoints > 21){
         busted.textContent = 'YA BUSTED!';
@@ -358,9 +362,19 @@ function bust(){
     }
 }
 
+//Replay
 function replay(){
     rep.textContent = 'Replay';
     arrow.src = 'arrow.png';
+}
+
+//Blackjack
+function blackj(){
+    playerHand.forEach(function(e){
+        if(playerPoints == 21 && (e.Points == 13 || e.Points == 12 || e.Points == 11 || e.Points == 10)){
+            blackjack.textContent = 'BLACKJACK!';
+        } 
+    })
 }
 
 

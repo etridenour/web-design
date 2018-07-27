@@ -28,6 +28,7 @@ console.log('-----Person-----');
 class Person{
     constructor(name){
         this.name = name;
+        this.createGreeting = this.createGreeting.bind(this);
         this.friends = [];
     }
 
@@ -51,8 +52,9 @@ class Person{
     
     createGreetingsForFriends(){
         var friendM = this.friends.map(function(friend){
-            console.log(alfie.createGreeting(friend))
+            console.log(this.createGreeting(friend))
         })
+        // console.log(this.friends);
     }
 }
 
@@ -64,6 +66,8 @@ me.lazyGreet(you);
 var alfie = new Person('Alfie'); 
 var anushka = new Person('Anushka'); 
 var henrique = new Person('Henrique'); 
+henrique.addFriend(alfie);
+henrique.createGreetingsForFriends();
 alfie.addFriend(anushka); 
 alfie.addFriend(henrique); 
 alfie.createGreetingsForFriends();
