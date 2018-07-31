@@ -1,10 +1,10 @@
 $(function(){
 
     // column 1
-    $.get('https://www.anapioficeandfire.com/api/houses?page=1&pageSize=20')
+    $.get('https://www.anapioficeandfire.com/api/houses?page=1&pageSize=28')
     .done(function(response){
-        console.log(response);
         got1(response);
+        console.log(response);
     })
     .fail(function(error) {
         console.log(error);
@@ -12,9 +12,8 @@ $(function(){
     });
 
     // column 2
-    $.get('https://www.anapioficeandfire.com/api/houses?page=1&pageSize=20')
+    $.get('https://www.anapioficeandfire.com/api/houses?page=2&pageSize=28')
     .done(function(response){
-        console.log(response);
         got2(response);
     })
     .fail(function(error) {
@@ -23,9 +22,8 @@ $(function(){
     });
 
     // column 3
-    $.get('https://www.anapioficeandfire.com/api/houses?page=1&pageSize=20')
+    $.get('https://www.anapioficeandfire.com/api/houses?page=3&pageSize=28')
     .done(function(response){
-        console.log(response);
         got3(response);
     })
     .fail(function(error) {
@@ -34,9 +32,8 @@ $(function(){
     });
 
     // column 4
-    $.get('https://www.anapioficeandfire.com/api/houses?page=1&pageSize=20')
+    $.get('https://www.anapioficeandfire.com/api/houses?page=4&pageSize=28')
     .done(function(response){
-        console.log(response);
         got4(response);
     })
     .fail(function(error) {
@@ -44,16 +41,22 @@ $(function(){
             
     });
 
+    // House Info
+
+    $('#submitButton').on('click', (e) => {
+
+    })
+
     function got1(input) {
         input.forEach(function(input){
             let houses = input.name;
-            console.log(houses);
 
-            let $printHouses= $('<button>', {
+            let $printHouses= $('<a>', {
                 'text': houses,
-                 click: function () { alert('hi'); }
+                'href': '#',
+                 click: function () { dispHouseInfo(input); }
             });
-            ($printHouses).text(houses);
+            // ($printHouses).text(houses);
             $('#c1').append($printHouses);
 
             let $br = $('<br>');
@@ -65,13 +68,13 @@ $(function(){
     function got2(input) {
         input.forEach(function(input){
             let houses = input.name;
-            console.log(houses);
 
-            let $printHouses= $('<button>', {
+            let $printHouses= $('<a>', {
                 'text': houses,
-                'class': ''
+                'href': '#',
+                 click: function () { dispHouseInfo(input); }
             });
-            ($printHouses).text(houses);
+            // ($printHouses).text(houses);
             $('#c2').append($printHouses);
 
             let $br = $('<br>');
@@ -83,13 +86,13 @@ $(function(){
     function got3(input) {
         input.forEach(function(input){
             let houses = input.name;
-            console.log(houses);
 
-            let $printHouses= $('<button>', {
+            let $printHouses= $('<a>', {
                 'text': houses,
-                'class': ''
+                'href': '#',
+                 click: function () { dispHouseInfo(input); }
             });
-            ($printHouses).text(houses);
+            // ($printHouses).text(houses);
             $('#c3').append($printHouses);
 
             let $br = $('<br>');
@@ -101,18 +104,49 @@ $(function(){
     function got4(input) {
         input.forEach(function(input){
             let houses = input.name;
-            console.log(houses);
 
-            let $printHouses= $('<button>', {
+            let $printHouses= $('<a>', {
                 'text': houses,
-                'class': ''
+                'href': '#',
+                 click: function () { dispHouseInfo(input); }
             });
-            ($printHouses).text(houses);
+            // ($printHouses).text(houses);
             $('#c4').append($printHouses);
 
             let $br = $('<br>');
             $('#c4').append($br);
         })
+    }
 
+    function dispHouseInfo(input){
+
+            let hName = input.name;
+            let hRegion = input.region;
+            let hCOA = input.coatOfArms;
+            let hWords = input.words;
+
+            console.log(`House Name: ${hName}
+            Region: ${hRegion}
+            Coat of Arms: ${hCOA}
+            Words: ${hWords}`);
+
+            var houseInfoP = document.getElementById('houseInfoP');
+            houseInfoP.innerHTML = `<p>House Name: ${hName}
+                <br>
+                <br>
+                Region: ${hRegion}
+                <br>
+                <br>
+                Coat of Arms: ${hCOA}
+                <br>
+                <br>
+                Words: ${hWords}</p>`;
     }
 })
+
+
+var $houseInfo = $('#houseInfo');
+$houseInfo.text(`House Name: ${hName}
+    Region: ${hRegion}
+    Coat of Arms: ${hCOA}
+    Words: ${hWords}`);

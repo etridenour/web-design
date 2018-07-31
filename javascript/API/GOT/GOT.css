@@ -1,7 +1,7 @@
 .head{
     position: absolute;
     color:rgb(240, 239, 223);
-    bottom: 80%;
+    bottom: 85%;
     left:25%;
     font-size: 6em;
     font-family: futura;
@@ -13,7 +13,6 @@
 }
 .container{
     width: 100%;
-    border: solid black;
     position: relative;
     
     color: white;
@@ -21,27 +20,50 @@
 
 #c1{
     position: absolute;
-    bottom: 10%;
-    opacity: .5;
+    top: 21%;
+    left: -2%;
     text-align: center;
+    color: black;
     
 }
 
 #c2{
     position: absolute;
-    bottom: 10%;
-    opacity: .5;
+    top: 21%;
     text-align: center;
+    color: black;
+    left: 5%;
 }
 #c3{
     position: absolute;
-    bottom: 10%;
-    opacity: .5;
+    top: 21%;
     text-align: center;
+    color: black;
+    right: 10%;
 }
 #c4{
     position: absolute;
-    bottom: 10%;
-    opacity: .5;
+    top: 21%;
     text-align: center;
+    color: black;
+    left: 73%;
+    
+}
+
+#houseInfo{
+    font-size: 60px;
+    font-family: cursive;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+}
+
+#houseInfoP{
+    font-size: 30px;
+    font-family: cursive;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    height: 65%;;
+    width: 25%;
 }

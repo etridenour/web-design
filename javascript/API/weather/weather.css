@@ -1,0 +1,64 @@
+#bg{
+    width: 100%;
+    position: relative;
+    height: 850px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: optima;
+    position: absolute;
+    bottom: 90%;
+    left: 2%;
+    color: rgb(236, 227, 212);
+    
+}
+.header{
+    margin-top: 2%;
+    text-align: center;
+}
+#cityInput{
+    left: 20%;
+    position: absolute;
+    bottom: 91%;
+    height: 40px;
+    width: 240px;
+    font-family: optima;
+    font-size: 22px;
+}
+#submitButton{
+    position: absolute;
+    left: 35%;
+    top: 4.5%;
+    height: 40px;
+    width: 130px;
+    font-family: optima;
+}
+#weatherDisp{
+    position: absolute;
+    top: 33%;
+    left: 51%;
+    font-size: 70px;
+    text-shadow: 0 0 50px white;
+    font-family: optima;
+}
+
+#weatherPic{
+    width: 20%;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+    
+}
+
+#weatherBox{
+   
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    bottom: 27%;
+    left: 23%;
+    background: linear-gradient(to top, rgba(255,0,0,0), rgb(255, 255, 255));
+    opacity: .9;
+    border-radius: 50px;
+}
