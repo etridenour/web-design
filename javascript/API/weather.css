@@ -1,0 +1,20 @@
+h1{
+    font-size: 100px;
+    
+}
+.header{
+    margin-top: 2%;
+    text-align: center;
+}
+#cityInput{
+    margin-left: 44%;
+}
+#submitButton{
+    margin-left: 47%;
+    margin-top: 2%;
+}
+#weatherDisp{
+    margin-top: 5%;
+    margin-left: 47%;
+}
+

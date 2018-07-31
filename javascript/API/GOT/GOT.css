@@ -1,0 +1,47 @@
+.head{
+    position: absolute;
+    color:rgb(240, 239, 223);
+    bottom: 80%;
+    left:25%;
+    font-size: 6em;
+    font-family: futura;
+}
+
+#backG{
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+    border: solid black;
+    position: relative;
+    
+    color: white;
+}
+
+#c1{
+    position: absolute;
+    bottom: 10%;
+    opacity: .5;
+    text-align: center;
+    
+}
+
+#c2{
+    position: absolute;
+    bottom: 10%;
+    opacity: .5;
+    text-align: center;
+}
+#c3{
+    position: absolute;
+    bottom: 10%;
+    opacity: .5;
+    text-align: center;
+}
+#c4{
+    position: absolute;
+    bottom: 10%;
+    opacity: .5;
+    text-align: center;
+}
