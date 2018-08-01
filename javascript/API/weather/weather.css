@@ -62,3 +62,11 @@ h1{
     opacity: .9;
     border-radius: 50px;
 }
+
+#cityDisp{
+    font-family: optima;
+    font-size: 55px;
+    position: absolute;
+    top: 15%;
+    left: 48%;
+}

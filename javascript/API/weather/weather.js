@@ -5,13 +5,16 @@ $(function() {
 	var apiKey = "066a1292fe434c04f22e4149542b4527"; 
 
     $('#submitButton').on('click', (e) => {
-        var $city = $('#cityInput').val();
+        
         e.preventDefault();
+
+        var $city = $('#cityInput').val();
+        
 
         $.get(url + $city + '&appid=' + apiKey)
         .done(function(response) {
 
-            console.log(response);
+            // console.log(response);
             updateUISuccess(response)
             
         })
@@ -25,22 +28,27 @@ $(function() {
         //handle XHR success
         function updateUISuccess(response) {
 
+            var $cityDisp = $('#cityDisp');
+            console.log($cityDisp);
+            $cityDisp.html($city);
+         
+
             var condition = response.weather[0].main;
-            console.log(condition);
+            // console.log(condition);
             
             var degC = response.main.temp - 273.15;
 
-            console.log(degC);
+            // console.log(degC);
             
             var degCInt = Math.floor(degC);
             
-            console.log(degCInt);
+            // console.log(degCInt);
 
             var degF = degC * 1.8 + 32;
             
-            console.log(degF);
+            // console.log(degF);
             var degFInt = Math.floor(degF);
-            console.log(degFInt);
+            // console.log(degFInt);
             
             var weatherBox = document.getElementById("weatherDisp");
             weatherBox.innerHTML = '<p>' + degFInt + "&#176; F</p><p>" + condition + "</p>";
