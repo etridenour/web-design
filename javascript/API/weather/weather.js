@@ -31,7 +31,6 @@ $(function() {
             var $cityDisp = $('#cityDisp');
             console.log($cityDisp);
             $cityDisp.html($city);
-         
 
             var condition = response.weather[0].main;
             // console.log(condition);

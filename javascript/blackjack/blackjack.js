@@ -5,10 +5,11 @@ var points = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13
 var deck = [];
 var playerPoints = 0;
 var dealerPoints = 0;
+var deckCount = 0;
 dealerHand = [];
 playerHand = [];
-pAceCount = 0;
-dAceCount = 0;
+// pAceCount = 0;
+// dAceCount = 0;
 var busted = document.querySelector('.bust');
 var win = document.querySelector('.win');
 var rep = document.querySelector(".replay");
@@ -26,6 +27,36 @@ function getDeck(){
 }
 getDeck();
 shuffleArray(deck);
+
+function deckCheck(){
+    if(deck.length < 1){
+        getDeck();
+        shuffleArray(deck);
+        deckCount += 1;
+    }
+    if (deckCount == 6){
+        deckCount = 0;
+    }
+    deckColor();
+}
+
+function deckColor(){
+    if(deckCount == 0){
+        return 'cards/purple_back.jpg';
+    } else if (deckCount == 1){
+        return 'cards/blue_back.jpg';
+    } else if (deckCount == 2){
+        return 'cards/green_back.jpg';
+    } else if (deckCount == 3){
+        return 'cards/red_back.jpg';
+    } else if (deckCount == 4){
+        return 'cards/yellow_back.jpg';
+    } else if (deckCount == 5){
+        return 'cards/gray_back.jpg';
+    } else {
+        return 'cards/purple_back.jpg';
+    }
+}
 
 //Button selectors
 var dealClick = document.querySelector('#deal-button');
@@ -66,7 +97,8 @@ dealClick.addEventListener('click',function(e){
     
 
     var dCard1 = document.querySelector(".dCard1");
-    dCard1.src = 'cards/purple_back.jpg';
+    dCard1.src = deckColor();
+    deckCheck();
 
     var dCard2 = document.querySelector(".dCard2");
     dCard2.src = getCardImageUrl();
@@ -74,6 +106,7 @@ dealClick.addEventListener('click',function(e){
     dealerHand.push(dcard2);
     calculateDPoints()
     dispDPoints();
+    deckCheck();
 
     var pCard1 = document.querySelector(".pCard1");
     pCard1.src = getCardImageUrl();
@@ -82,6 +115,7 @@ dealClick.addEventListener('click',function(e){
     calculatePPoints();
     dispPPoints();
     bust();
+    deckCheck();
 
     var pCard2 = document.querySelector(".pCard2");
     pCard2.src = getCardImageUrl();
@@ -92,7 +126,8 @@ dealClick.addEventListener('click',function(e){
     dispPPoints();
     bust();
     blackj();
-   
+    deckCheck();
+    console.log(deck.length);
 })
 
 //Hit
@@ -114,6 +149,7 @@ hitClick.addEventListener('click',function(e){
             console.log(playerPoints);
             bust();
             hitClickCount += 1;
+            deckCheck();
             console.log(playerHand);
         } else if (hitClickCount == 1){
             var pCard4 = document.querySelector(".pCard4");
@@ -124,6 +160,7 @@ hitClick.addEventListener('click',function(e){
             pAce();
             dispPPoints();
             bust();
+            deckCheck();
             hitClickCount += 1;
         } else if (hitClickCount == 2){
             var pCard5 = document.querySelector(".pCard5");
@@ -134,6 +171,7 @@ hitClick.addEventListener('click',function(e){
             pAce();
             dispPPoints();
             bust();
+            deckCheck();
             hitClickCount += 1;
         } else if (hitClickCount == 3){
             var pCard6 = document.querySelector(".pCard6");
@@ -144,6 +182,7 @@ hitClick.addEventListener('click',function(e){
             pAce();
             dispPPoints();
             bust();
+            deckCheck();
             hitClickCount += 1;
         }
     }
@@ -160,6 +199,7 @@ standClick.addEventListener('click',function(e){
     dAce();
     bust();
     dealTotal();
+    deckCheck();
     
     if ((playerPoints >= dealerPoints && playerPoints <= 21) || dealerPoints > 21){
         win.textContent = 'YOU WIN!';
@@ -182,6 +222,7 @@ function dealTotal(){
             dAce();
             bust();
             dispDPoints();
+            deckCheck();
             dealerCount +=1;
             
         } else if (dealerCount == 1){
@@ -193,6 +234,7 @@ function dealTotal(){
             dAce();
             bust();
             dispDPoints();
+            deckCheck();
             dealerCount +=1;
             
         }  else if (dealerCount == 2){
@@ -204,6 +246,7 @@ function dealTotal(){
             dAce();
             bust();
             dispDPoints();
+            deckCheck();
             dealerCount +=1;
             
         } else if (dealerCount == 3){
@@ -215,11 +258,13 @@ function dealTotal(){
             dAce();
             bust();
             dispDPoints();
+            deckCheck();
             
         }
     
     }
     dispDPoints();
+    deckCheck();
 }
 
 //Get correct card image
@@ -370,16 +415,17 @@ function replay(){
 
 //Blackjack
 function blackj(){
-    playerHand.forEach(function(e){
-        if(playerPoints == 21 && (e.Points == 13 || e.Points == 12 || e.Points == 11 || e.Points == 10)){
-            blackjack.textContent = 'BLACKJACK!';
-        } 
-    })
+    if(playerPoints == 21 && (playerHand[0]['Points'] != 9) && (playerHand[1]['Points'] != 9)){
+        blackjack.textContent = 'BLACKJACK!';
+    } 
 }
 
 $(function() {
     // code block
   });
+
+
+
 
 
 
