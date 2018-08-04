@@ -1,5 +1,6 @@
 //J Query Function
 $(function() { 
+    var returnArray = [];
 
     // Nutrition API url
     var listUrl = 'https://api.nal.usda.gov/ndb/search/?format=json&sort=r&max=100&offset=0&ds=Standard Reference&api_key='
@@ -9,11 +10,13 @@ $(function() {
         
         e.preventDefault();
 
-        var returnArray = [];
-        $('#browsers').html('');
+        returnArray = [];
+        $('#browsers').remove('');
 
         var $name$ = $('#searchText').val();
         var $name = $name$.toLowerCase();
+        // $name = $name.replace(/,/g, ' ');
+        // console.log($name);
 
         $.get(listUrl + apiKey + '&q=' + $name)
         
@@ -25,32 +28,58 @@ $(function() {
                 let wordCheck1 = productName.search($name);
 
                 if(wordCheck1 >= 0){
-                    if((e.group == 'Fruits and Fruit Juices') || (e.group == 'Dairy and Egg Products') || (e.group == 'Vegetables and Vegetable Products') || (e.group == 'Spices and Herbs') || (e.group == 'Beverages') || (e.group == 'Legumes and Legume Products') || (e.group == 'Sweets')){
+                    // console.log(e.group)
+                    if((e.group !== 'Baby Foods')){
                         returnArray.push(e);
-                        
-                    
                     }
-                }
+                }   
             })
-            var itemBar= $('<select>', {
+            let itemBar= $('<select>', {
                 'id': 'browsers'
                 });
             $('#list').append(itemBar);
-            console.log(returnArray);
+            // console.log(returnArray);
             returnArray.forEach(function (e){
                 // listName = e.name;
                 let $printArray= $('<option>', {
-                'text': e.name
+                'text': e.name,
+                'id': 'itemReturn'
                 });
-                $(itemBar).append($printArray);
+            $(itemBar).append($printArray);
+            
             })
         })
 
         .fail(function(error) {
-            // console.log(error);
+            console.log(error);
                 
         });
     })
+
+    $('#addButton').on('click', (e) => {
+        console.log(returnArray);
+        let $selected = $("#browsers").val();
+        var $newIngr = $('<li>');
+        $($newIngr).text($selected);
+        $('#recipeList').append($newIngr);
+        returnArray.forEach(function (e){
+            if($selected === e.name){
+                let foodID = e.ndbno;
+                let idUrl = 'https://api.nal.usda.gov/ndb/reports/?type=b&format=json&api_key='
+                $.get(idUrl + apiKey + '&ndbno=' + foodID)
+                .done(function(response){
+                    console.log(response);
+                })
+                .fail(function(error) {
+                    console.log(error);
+                        
+                });
+            }
+        })
+
+        //clearing input field
+        $('#description').val('');
+        })
 
 // J Query function end  
 })
