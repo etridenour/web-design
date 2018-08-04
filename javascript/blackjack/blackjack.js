@@ -5,9 +5,11 @@ var points = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13
 var deck = [];
 var playerPoints = 0;
 var dealerPoints = 0;
-var deckCount = 0;
+var player$ = 50;
+var deckCount = Math.floor((Math.random() * 5) + 1);
 dealerHand = [];
 playerHand = [];
+gameOn = false;
 // pAceCount = 0;
 // dAceCount = 0;
 var busted = document.querySelector('.bust');
@@ -15,6 +17,9 @@ var win = document.querySelector('.win');
 var rep = document.querySelector(".replay");
 var arrow = document.querySelector(".asiz");
 var blackjack = document.querySelector(".blackj");
+var money = document.querySelector(".money");
+
+money.textContent = '$' + player$;
 
 function getDeck(){
     for (x = 0; x < suits.length; x++){
@@ -71,6 +76,7 @@ var pCard5 = document.querySelector(".pCard5");
 var pCard6 = document.querySelector(".pCard6");
 
 dealClick.addEventListener('click',function(e){
+    gameOn = true;
     dealerHand = [];
     playerHand = [];
     hitClickCount = 0;
@@ -134,7 +140,7 @@ dealClick.addEventListener('click',function(e){
 
 var hitClickCount = 0;
 hitClick.addEventListener('click',function(e){
-    if (playerHand.length != 0){
+    if (gameOn == true){
         if (hitClickCount == 0){
             var pCard3 = document.querySelector(".pCard3");
             pCard3.src = getCardImageUrl();
@@ -190,26 +196,33 @@ hitClick.addEventListener('click',function(e){
 
 //Stand
 
-standClick.addEventListener('click',function(e){
-    var dCard1 = document.querySelector(".dCard1");
-    dCard1.src = getCardImageUrl();
-    dc1 = deck.shift();
-    dealerHand.push(dc1);
-    calculateDPoints()
-    dAce();
-    bust();
-    dealTotal();
-    deckCheck();
-    
-    if ((playerPoints >= dealerPoints && playerPoints <= 21) || dealerPoints > 21){
-        win.textContent = 'YOU WIN!';
-        replay();
-    } else if (dealerPoints > playerPoints) {
-        win.textContent = 'YOU LOSE!';
-        replay();
-    }
 
+standClick.addEventListener('click',function(e){
+    if(gameOn == true){
+        var dCard1 = document.querySelector(".dCard1");
+        dCard1.src = getCardImageUrl();
+        dc1 = deck.shift();
+        dealerHand.push(dc1);
+        calculateDPoints()
+        dAce();
+        bust();
+        dealTotal();
+        deckCheck();
+        
+        if ((playerPoints >= dealerPoints && playerPoints <= 21) || dealerPoints > 21){
+            win.textContent = 'YOU WIN!';
+            playerW();
+            replay();
+            gameOn = false;
+        } else if (dealerPoints > playerPoints) {
+            win.textContent = 'YOU LOSE!';
+            playerL();
+            replay();
+            gameOn = false;
+        }
+    }
 })
+
 dealerCount = 0;
 function dealTotal(){
     while(dealerPoints < 17){
@@ -399,11 +412,14 @@ function bust(){
     if (playerPoints > 21){
         busted.textContent = 'YA BUSTED!';
         win.textContent = 'YOU LOSE!';
+        playerL();
         replay();
+        gameOn = false;
     } else if (dealerPoints > 21){
         busted.textContent = 'DEALER BUSTED!';
         win.textContent = 'YOU WIN!';
         replay();
+        gameOn = false;
     }
 }
 
@@ -415,14 +431,25 @@ function replay(){
 
 //Blackjack
 function blackj(){
-    if(playerPoints == 21 && (playerHand[0]['Points'] != 9) && (playerHand[1]['Points'] != 9)){
+    if(playerPoints == 21){
         blackjack.textContent = 'BLACKJACK!';
+        win.textContent = 'YOU WIN!';
+        player$ += 7.50;
+        money.textContent = '$' + player$;
+        gameOn = false;
     } 
 }
 
-$(function() {
-    // code block
-  });
+function playerL(){
+    player$ -= 5;
+    money.textContent = '$' + player$;
+
+}
+
+function playerW(){
+    player$ += 5;
+    money.textContent = '$' + player$;
+}
 
 
 
