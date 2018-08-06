@@ -10,6 +10,7 @@ var deckCount = Math.floor((Math.random() * 5) + 1);
 dealerHand = [];
 playerHand = [];
 gameOn = false;
+var green = 'check';
 // pAceCount = 0;
 // dAceCount = 0;
 var busted = document.querySelector('.bust');
