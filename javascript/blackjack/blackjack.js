@@ -451,6 +451,10 @@ function playerW(){
     money.textContent = '$' + player$;
 }
 
+function bet(){
+    
+}
+
 
 
 
