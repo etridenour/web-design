@@ -1,0 +1,32 @@
+
+
+h1, h2, ul {
+    font-family: futura;
+}
+
+li {
+    margin-bottom: 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+h2{
+    color: purple;
+}
+
+
+
+.drummers{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.mainPic{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
