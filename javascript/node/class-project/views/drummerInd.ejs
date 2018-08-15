@@ -11,21 +11,16 @@
     <link rel="stylesheet" href="/styles/styles.css">
   </head>
   <body>
-      <% include ./partials/template/navbar.ejs %>
-    <div class='row'>
-    <% dataFile.drummers.forEach(function(e){ %>
-      <div class="card" style="width:300px">
-          <img class="card-img-top" src="/images/<%= e.shortname %>_tall.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title"> <%= e.name %> </h4>
-            <p class="card-text"></p>
-            <a href="http://localhost:5000/drummers/<%= e.index %> " class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-    <% }) %>
-  </div>
 
-  <% include ./partials/template/footer.ejs %>
+      <% include ./partials/template/navbar.ejs %>
+        <h2 class='drummerName'> <%= drummer.name %> </h2>
+        <br>
+        <img class='indImg' src="/images/<%= drummer.shortname %>.jpg" alt="">
+        <br>
+        <br>
+        <p class='offset-3 col-6'> <%= drummer.description %> </p>
+
+        <% include ./partials/template/footer.ejs %>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

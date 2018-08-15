@@ -16,9 +16,7 @@ router.get('/drummers', (req, res) => {
 
 
 
-    
-
-
+// Non EJS 
     // dataFile.drummers.forEach(function(item){
     //     myHTML += `
     //     <li>
@@ -41,18 +39,26 @@ router.get('/drummers', (req, res) => {
     // })
 
 
-// router.get('/drummers/:drummerID', (req, res) => {
+router.get('/drummers/:drummerID', (req, res) => {
 
-//     let dataFile = req.app.get("appData");
+    let dataFile = req.app.get("appData");
 
-//     let drummer = dataFile.drummers[req.params.drummerID];
 
-//     res.send(`
+    res.render('drummerInd',{
+        pageTitle: "Drummer",
+        pageID: 'Individual',
+        drummer: dataFile.drummers[req.params.drummerID],
+        dataFile: dataFile
+    })
+
+    
+})
+
+module.exports = router;
+
+// res.send(`
     
 //         <h2>${drummer.name}</h2>
 //         <img src="/images/${drummer.shortname}.jpg" alt="">
 //         <p>${drummer.description}</p>
 //     `)
-// })
-
-module.exports = router;

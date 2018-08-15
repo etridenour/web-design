@@ -10,10 +10,13 @@ app.use(express.static('public'));
 
 app.use(require('./routes/index'));
 app.use(require('./routes/drummers'));
+app.use(require('./routes/form'));
+// app.use(require('./routes/feedback'));
+// app.use(require('./routes/api'));
 
 
-app.listen(3000, ()=>{
-    console.log("listening on port 3000");
+app.listen(5000, ()=>{
+    console.log("listening on port 5000");
 
 })
 

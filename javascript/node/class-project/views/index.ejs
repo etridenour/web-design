@@ -11,12 +11,21 @@
     <link rel="stylesheet" href="/styles/styles.css">
   </head>
   <body>
-      <div class='row'>
-        <a class='drummers col-12' href='http://localhost:3000/drummers'>Drummers</a>
-      </div>
+      <% include ./partials/template/navbar.ejs %>
+      <div class="jumbotron">
+          <h1  class="text-white">World Class Drummers</h1>
+          <p class="lead text-white">A small list of some of the best and most influential drummers of all time.</p>
+          <hr class="my-4">
+          
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="http://localhost:5000/drummers" role="button">Check it out</a>
+          </p>
+        </div>
       <div>
         <img class='mainPic text-center' src="/images/bozzio_kit.jpg">
       </div>
+
+      <% include ./partials/template/footer.ejs %>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
