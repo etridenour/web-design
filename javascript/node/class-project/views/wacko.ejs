@@ -11,23 +11,12 @@
     <link rel="stylesheet" href="/styles/styles.css">
   </head>
   <body>
+    <% include ./partials/template/navbar.ejs %>
 
-      <% include ./partials/template/navbar.ejs %>
-
-    <div class='cardDiv row col-10 offset-1'>
-    <% dataFile.drummers.forEach(function(e){ %>
-      <div class="card " style="width:240px">
-          <img class="card-img-top" src="/images/<%= e.shortname %>_tall.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title"> <%= e.name %> </h4>
-            <p class="card-text"></p>
-            <a href="http://localhost:5000/drummers/<%= e.index %> " class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-    <% }) %>
-  </div>
-  
-      <% include ./partials/template/footer.ejs %>
+    <div class='wacko'>
+    <img class='col-6 offset-3' src='/images/drum.gif'>
+    </div>
+    <% include ./partials/template/footer.ejs %>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

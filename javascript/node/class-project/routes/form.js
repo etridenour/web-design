@@ -11,7 +11,7 @@ router.get('/form', (req, res) =>{
 
 router.post('/submit', (req, res) =>{
 
-    res.send(`The header info: ${req.body.name} ${req.body.email}`)
+    res.send(`The header info: ${req.body.email} ${req.body.password}`)
 
 })
 
