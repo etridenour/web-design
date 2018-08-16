@@ -6,7 +6,10 @@ var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({extended: false}));
 
 router.get('/form', (req, res) =>{
-    res.render('form');
+    let dataFile = req.app.get("appData");
+    res.render('form',{
+        dataFile: dataFile
+    });
 })
 
 router.post('/submit', (req, res) =>{
