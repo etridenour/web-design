@@ -39,6 +39,8 @@ h2{
     box-shadow: 11px 13px 28px 0px rgba(97,97,97,1);
     margin: 1%;
 }
+
+
 .cardDiv{
    margin-top: 2%;
     
@@ -85,6 +87,40 @@ nonOp{
     color: white;
 }
 
-.feedbackForm{
+#feedbackForm{
     margin-top: 5%;
+}
+.recentFeedback{
+    margin-top: 5%;
+    border: solid black;
+}
+
+.formInput{
+
+}
+
+.blackground{
+    background-color: black;
+    width: 100%;
+    height: 800px;;
+    border: solid black;
+    position: relative;
+}
+.nodemonPic{
+    margin-top: 5%;
+    -webkit-animation: fadein 8s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.praise{
+    position: absolute;
+    width: 110%;
+    -webkit-animation: fadein 8s;
+}
+
+#deleteButton{
+    margin-right: 2%;
 }

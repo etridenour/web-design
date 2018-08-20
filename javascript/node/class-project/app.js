@@ -10,9 +10,9 @@ app.use(express.static('public'));
 
 app.use(require('./routes/index'));
 app.use(require('./routes/drummers'));
-app.use(require('./routes/form'));
-// app.use(require('./routes/feedback'));
-// app.use(require('./routes/api'));
+// app.use(require('./routes/form'));
+app.use(require('./routes/feedback'));
+app.use(require('./routes/api'));
 app.use(require('./routes/wacko'));
 
 
