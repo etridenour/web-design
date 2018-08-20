@@ -61,14 +61,14 @@ h2{
 }
 
 .foot{
-    background-color: #c7c7c7;
+    background-color: #dadada;
 }
 
 .wacko{
     margin-top: 5%;
 }
 .nodemon{
-    color: #c7c7c7;
+    color: #dadada;
 }
 
 .footmain{
@@ -81,6 +81,7 @@ h2{
     background-color:rgba(199, 199, 199, 0.7) !important;
     left: 20%;
     top: 30%;
+    font-family: futura;
 }
 
 nonOp{
@@ -123,4 +124,8 @@ nonOp{
 
 #deleteButton{
     margin-right: 2%;
+}
+
+#chatButton{
+    margin-right: .5%;
 }
