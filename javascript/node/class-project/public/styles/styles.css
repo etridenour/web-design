@@ -129,3 +129,9 @@ nonOp{
 #chatButton{
     margin-right: .5%;
 }
+
+#chat-box-div{
+    
+    border: solid black;
+    height: 70vh;
+}
