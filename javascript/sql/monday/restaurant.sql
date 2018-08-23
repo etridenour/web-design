@@ -185,8 +185,8 @@
 -- -- 7
 -- SELECT restaurant.name, review.review, reviewer.name FROM review
 --     JOIN restaurant ON restaurant.id = review.restaurant_id
---     JOIN reviewer ON reviewer.id = review.reviewer_id
---     GROUP BY restaurant.name, review.review, reviewer.name ;
+--     JOIN reviewer ON reviewer.id = review.reviewer_id;
+
 
 -- -- 8
 -- SELECT reviewer.name, AVG(review.stars) FROM review

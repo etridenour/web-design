@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://healthhitters.com/xmlrpc.php">
+
+<title>Home - Health Hitters</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v8.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://healthhitters.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Health Hitters" />
+<meta property="og:url" content="https://healthhitters.com/" />
+<meta property="og:site_name" content="Health Hitters" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Home - Health Hitters" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/healthhitters.com\/","name":"Health Hitters","potentialAction":{"@type":"SearchAction","target":"https:\/\/healthhitters.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/healthhitters.com\/","sameAs":[],"@id":"https:\/\/healthhitters.com\/#organization","name":"Health Hitters","logo":"https:\/\/healthhitters.com\/wp-content\/uploads\/2017\/07\/IMG_0316-1.jpg"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Health Hitters &raquo; Feed" href="https://healthhitters.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Health Hitters &raquo; Comments Feed" href="https://healthhitters.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Health Hitters &raquo; Home Comments Feed" href="https://healthhitters.com/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/healthhitters.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='sydney-bootstrap-css'  href='https://healthhitters.com/wp-content/themes/sydney/css/bootstrap/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='es-widget-css-css'  href='https://healthhitters.com/wp-content/plugins/email-subscribers/widget/es-widget.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='https://healthhitters.com/wp-content/plugins/siteorigin-panels/css/front-flex.min.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-flat-f91ddd29c337-css'  href='https://healthhitters.com/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-flat-f91ddd29c337.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://healthhitters.com/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='sydney-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C400italic%2C600%7CRaleway%3A400%2C500%2C600' type='text/css' media='all' />
+<link rel='stylesheet' id='sydney-style-css'  href='https://healthhitters.com/wp-content/themes/sydney/style.css?ver=20180710' type='text/css' media='all' />
+<style id='sydney-style-inline-css' type='text/css'>
+.site-title { font-size:32px; }
+.site-description { font-size:16px; }
+#mainnav ul li a { font-size:14px; }
+h1 { font-size:52px; }
+h2 { font-size:42px; }
+h3 { font-size:32px; }
+h4 { font-size:25px; }
+h5 { font-size:20px; }
+h6 { font-size:18px; }
+body { font-size:16px; }
+.single .hentry .title-post { font-size:36px; }
+.header-image { background-size:cover;}
+.header-image { height:300px; }
+.widget-area .widget_fp_social a,#mainnav ul li a:hover, .sydney_contact_info_widget span, .roll-team .team-content .name,.roll-team .team-item .team-pop .team-social li:hover a,.roll-infomation li.address:before,.roll-infomation li.phone:before,.roll-infomation li.email:before,.roll-testimonials .name,.roll-button.border,.roll-button:hover,.roll-icon-list .icon i,.roll-icon-list .content h3 a:hover,.roll-icon-box.white .content h3 a,.roll-icon-box .icon i,.roll-icon-box .content h3 a:hover,.switcher-container .switcher-icon a:focus,.go-top:hover,.hentry .meta-post a:hover,#mainnav > ul > li > a.active, #mainnav > ul > li > a:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .text-color, .social-menu-widget a, .social-menu-widget a:hover, .archive .team-social li a, a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,.classic-alt .meta-post a,.single .hentry .meta-post a { color:#6b97bf}
+.reply,.woocommerce div.product .woocommerce-tabs ul.tabs li.active,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.project-filter li a.active, .project-filter li a:hover,.preloader .pre-bounce1, .preloader .pre-bounce2,.roll-team .team-item .team-pop,.roll-progress .progress-animate,.roll-socials li a:hover,.roll-project .project-item .project-pop,.roll-project .project-filter li.active,.roll-project .project-filter li:hover,.roll-button.light:hover,.roll-button.border:hover,.roll-button,.roll-icon-box.white .icon,.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,.go-top,.bottom .socials li:hover a,.sidebar .widget:before,.blog-pagination ul li.active,.blog-pagination ul li:hover a,.content-area .hentry:after,.text-slider .maintitle:after,.error-wrap #search-submit:hover,#mainnav .sub-menu li:hover > a,#mainnav ul li ul:after, button, input[type="button"], input[type="reset"], input[type="submit"], .panel-grid-cell .widget-title:after { background-color:#6b97bf}
+.roll-socials li a:hover,.roll-socials li a,.roll-button.light:hover,.roll-button.border,.roll-button,.roll-icon-list .icon,.roll-icon-box .icon,.owl-theme .owl-controls .owl-page span,.comment .comment-detail,.widget-tags .tag-list a:hover,.blog-pagination ul li,.hentry blockquote,.error-wrap #search-submit:hover,textarea:focus,input[type="text"]:focus,input[type="password"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="time"]:focus,input[type="week"]:focus,input[type="number"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="color"]:focus, button, input[type="button"], input[type="reset"], input[type="submit"], .archive .team-social li a { border-color:#6b97bf}
+.site-header.float-header { background-color:rgba(196,196,196,0.9);}
+@media only screen and (max-width: 1024px) { .site-header { background-color:#c4c4c4;}}
+.site-title a, .site-title a:hover { color:#ffffff}
+.site-description { color:#ffffff}
+#mainnav ul li a, #mainnav ul li::before { color:#ffffff}
+#mainnav .sub-menu li a { color:#ffffff}
+#mainnav .sub-menu li a { background:#1c1c1c}
+.text-slider .maintitle, .text-slider .subtitle { color:#ffffff}
+body { color:#000000}
+#secondary { background-color:#ffffff}
+#secondary, #secondary a, #secondary .widget-title { color:#c4c4c4}
+.footer-widgets { background-color:#252525}
+.btn-menu { color:#ffffff}
+#mainnav ul li a:hover { color:#6b97bf}
+.site-footer { background-color:#c4c4c4}
+.site-footer,.site-footer a { color:#000000}
+.overlay { background-color:#000000}
+.page-wrap { padding-top:83px;}
+.page-wrap { padding-bottom:100px;}
+@media only screen and (max-width: 1025px) {		
+			.mobile-slide {
+				display: block;
+			}
+			.slide-item {
+				background-image: none !important;
+			}
+			.header-slider {
+			}
+			.slide-item {
+				height: auto !important;
+			}
+			.slide-inner {
+				min-height: initial;
+			} 
+		}
+@media only screen and (max-width: 780px) { 
+    	h1 { font-size: 32px;}
+		h2 { font-size: 28px;}
+		h3 { font-size: 22px;}
+		h4 { font-size: 18px;}
+		h5 { font-size: 16px;}
+		h6 { font-size: 14px;}
+    }
+
+</style>
+<link rel='stylesheet' id='sydney-font-awesome-css'  href='https://healthhitters.com/wp-content/themes/sydney/fonts/font-awesome.min.css?ver=4.9.8' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='sydney-ie9-css'  href='https://healthhitters.com/wp-content/themes/sydney/css/ie9.css?ver=4.9.8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack-widget-social-icons-styles-css'  href='https://healthhitters.com/wp-content/plugins/jetpack/modules/widgets/social-icons/social-icons.css?ver=20170506' type='text/css' media='all' />
+<link rel='stylesheet' id='sow-social-media-buttons-flat-a5822a93cca0-css'  href='https://healthhitters.com/wp-content/uploads/siteorigin-widgets/sow-social-media-buttons-flat-a5822a93cca0.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-widget-icon-font-fontawesome-css'  href='https://healthhitters.com/wp-content/plugins/so-widgets-bundle/icons/fontawesome/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://healthhitters.com/wp-content/plugins/jetpack/css/jetpack.css?ver=6.4.2' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	var disableStr = 'ga-disable-UA-102683859-1';
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-102683859-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('require', 'linkid', 'linkid.js');
+	__gaTracker('send','pageview');
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='https://healthhitters.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"https:\/\/healthhitters.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/assets/js/frontend.min.js?ver=6.2.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var panelsStyles = {"fullContainer":"body"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/siteorigin-panels/js/styling-282.min.js?ver=2.8.2'></script>
+<link rel='https://api.w.org/' href='https://healthhitters.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://healthhitters.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://healthhitters.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='shortlink' href='https://wp.me/P8U2WA-3o' />
+<link rel="alternate" type="application/json+oembed" href="https://healthhitters.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhealthhitters.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://healthhitters.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhealthhitters.com%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #c4c4c4; }
+</style>
+                <style type="text/css" media="all"
+                       id="siteorigin-panels-layouts-head">/* Layout 210 */ #pgc-210-0-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-210 #panel-210-0-0-0 {  } #pl-210 .so-panel , #pl-210 .so-panel:last-child { margin-bottom:0px } @media (max-width:780px){ #pg-210-0.panel-no-style, #pg-210-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-210-0 .panel-grid-cell { margin-right:0 } #pg-210-0 .panel-grid-cell { width:100% } #pl-210 .panel-grid-cell { padding:0 } #pl-210 .panel-grid .panel-grid-cell-empty { display:none } #pl-210 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="icon" href="https://i2.wp.com/healthhitters.com/wp-content/uploads/2017/08/cropped-Health_Hitters_1.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i2.wp.com/healthhitters.com/wp-content/uploads/2017/08/cropped-Health_Hitters_1.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://i2.wp.com/healthhitters.com/wp-content/uploads/2017/08/cropped-Health_Hitters_1.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i2.wp.com/healthhitters.com/wp-content/uploads/2017/08/cropped-Health_Hitters_1.png?fit=270%2C270&#038;ssl=1" />
+</head>
+
+<body class="home page-template page-template-page-templates page-template-page_front-page page-template-page-templatespage_front-page-php page page-id-210 custom-background siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home group-blog">
+
+	<div class="preloader">
+	    <div class="spinner">
+	        <div class="pre-bounce1"></div>
+	        <div class="pre-bounce2"></div>
+	    </div>
+	</div>
+	
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-wrap">
+            <div class="container">
+                <div class="row">
+				<div class="col-md-4 col-sm-8 col-xs-12">
+		        					<a href="https://healthhitters.com/" title="Health Hitters"><img class="site-logo" src="https://healthhitters.com/wp-content/uploads/2017/08/Health_Hitters_1.png" alt="Health Hitters" /></a>
+		        				</div>
+				<div class="col-md-8 col-sm-4 col-xs-12">
+					<div class="btn-menu"></div>
+					<nav id="mainnav" class="mainnav" role="navigation">
+						<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-171" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-171"><a href="https://healthhitters.com">Home</a></li>
+<li id="menu-item-254" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254"><a href="https://healthhitters.com/blog/">Blog</a></li>
+<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="https://healthhitters.com/about-us/">About Us</a></li>
+<li id="menu-item-497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-497"><a href="https://healthhitters.com/contact-us/">Contact Us</a></li>
+</ul></div>					</nav><!-- #site-navigation -->
+				</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	
+	<div class="sydney-hero-area">
+		
+    <div id="slideshow" class="header-slider" data-speed="5000" data-mobileslider="responsive">
+        <div class="slides-container">
+
+                                <div class="slide-item slide-item-1" style="background-image:url('https://healthhitters.com/wp-content/uploads/2017/07/IMG_0316-1.jpg');">
+                    <img class="mobile-slide preserve" src="https://healthhitters.com/wp-content/uploads/2017/07/IMG_0316-1.jpg" alt=""/>
+                    <div class="slide-inner">
+                        <div class="contain animated fadeInRightBig text-slider">
+                        <h2 class="maintitle">Welcome to Health Hitters</h2>
+                        <p class="subtitle">Feel free to look around</p>
+                        </div>
+                        <a href="#primary" class="roll-button button-slider">Click to begin</a>                    </div>
+                </div>
+                                <div class="slide-item slide-item-2" style="background-image:url('https://healthhitters.com/wp-content/uploads/2017/08/FullSizeRender.jpg');">
+                    <img class="mobile-slide preserve" src="https://healthhitters.com/wp-content/uploads/2017/08/FullSizeRender.jpg" alt=""/>
+                    <div class="slide-inner">
+                        <div class="contain animated fadeInRightBig text-slider">
+                        <h2 class="maintitle">Get Healthy &amp; Fit Effortlessly </h2>
+                        <p class="subtitle">Start Your Journey Below</p>
+                        </div>
+                        <a href="#primary" class="roll-button button-slider">Click to begin</a>                    </div>
+                </div>
+                                <div class="slide-item slide-item-3" style="background-image:url('https://healthhitters.com/wp-content/uploads/2017/07/fruit-1213041_1920.jpg');">
+                    <img class="mobile-slide preserve" src="https://healthhitters.com/wp-content/uploads/2017/07/fruit-1213041_1920.jpg" alt=""/>
+                    <div class="slide-inner">
+                        <div class="contain animated fadeInRightBig text-slider">
+                        <h2 class="maintitle">Health</h2>
+                        <p class="subtitle">Learn to Enjoy Health</p>
+                        </div>
+                        <a href="#primary" class="roll-button button-slider">Click to begin</a>                    </div>
+                </div>
+                                <div class="slide-item slide-item-4" style="background-image:url('https://healthhitters.com/wp-content/uploads/2017/08/pexels-photo-269198.jpg');">
+                    <img class="mobile-slide preserve" src="https://healthhitters.com/wp-content/uploads/2017/08/pexels-photo-269198.jpg" alt=""/>
+                    <div class="slide-inner">
+                        <div class="contain animated fadeInRightBig text-slider">
+                        <h2 class="maintitle">Transform Your Body</h2>
+                        <p class="subtitle">All Things Fitness</p>
+                        </div>
+                        <a href="#primary" class="roll-button button-slider">Click to begin</a>                    </div>
+                </div>
+                                <div class="slide-item slide-item-5" style="background-image:url('https://healthhitters.com/wp-content/uploads/2017/08/IMG_0344-2-1024x963.jpg');">
+                    <img class="mobile-slide preserve" src="https://healthhitters.com/wp-content/uploads/2017/08/IMG_0344-2-1024x963.jpg" alt=""/>
+                    <div class="slide-inner">
+                        <div class="contain animated fadeInRightBig text-slider">
+                        <h2 class="maintitle">Health Hitters Lifestyle</h2>
+                        <p class="subtitle">How We Enjoy Life</p>
+                        </div>
+                        <a href="#primary" class="roll-button button-slider">Click to begin</a>                    </div>
+                </div>
+                
+        </div>  
+            </div>
+
+    		<div class="header-image">
+			<div class="overlay"></div>			<img class="header-inner" src="https://healthhitters.com/wp-content/themes/sydney/images/header.jpg" width="1920" alt="Health Hitters" title="Health Hitters">
+		</div>
+		
+			</div>
+
+	
+	<div id="content" class="page-wrap">
+		<div class="container content-wrapper">
+			<div class="row">	
+	<div id="primary" class="fp-content-area">
+		<main id="main" class="site-main" role="main">
+
+			<div class="entry-content">
+									<div id="pl-210"  class="panel-layout" ><div id="pg-210-0"  class="panel-grid panel-has-style" ><div class="siteorigin-panels-stretch panel-row-style panel-row-style-for-210-0" style="border-bottom: 1px solid #e0e0e0;padding: 100px 0; " data-stretch-type="full" data-overlay="true" ><div id="pgc-210-0-0"  class="panel-grid-cell" ><div id="panel-210-0-0-0" class="so-panel widget widget_sow-social-media-buttons panel-first-child panel-last-child" data-index="0" ><div style="text-align: left;" data-title-color="#443f3f" data-headings-color="#443f3f" class="panel-widget-style panel-widget-style-for-210-0-0-0" ><div class="so-widget-sow-social-media-buttons so-widget-sow-social-media-buttons-flat-a5822a93cca0">
+<div class="social-media-button-container">
+	
+		<a class="ow-button-hover sow-social-media-button-instagram sow-social-media-button" title="Instagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/healthhitters/" >
+			<span>
+								<span class="sow-icon-fontawesome" data-sow-icon="&#xf16d;" ></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-facebook sow-social-media-button" title="Facebook" aria-label="Facebook" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/healthhitters/" >
+			<span>
+								<span class="sow-icon-fontawesome" data-sow-icon="&#xf09a;" ></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-twitter sow-social-media-button" title="Twitter" aria-label="Twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Health_Hitters" >
+			<span>
+								<span class="sow-icon-fontawesome" data-sow-icon="&#xf099;" ></span>							</span>
+		</a>
+	
+		<a class="ow-button-hover sow-social-media-button-envelope sow-social-media-button" title="Gmail" aria-label="Gmail" target="_blank" rel="noopener noreferrer" href="mailto:" >
+			<span>
+								<span class="sow-icon-fontawesome" data-sow-icon="&#xf0e0;" ></span>							</span>
+		</a>
+	</div>
+</div></div></div></div></div></div></div>							</div><!-- .entry-content -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+			</div>
+		</div>
+	</div><!-- #content -->
+
+	
+	
+    <a class="go-top"><i class="fa fa-angle-up"></i></a>
+		
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info container">
+			<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: <a href="https://athemes.com/theme/sydney" rel="designer">Sydney</a> by aThemes.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+
+	
+</div><!-- #page -->
+
+<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='fa374a0068828e00eae6f000a0f7f0007e8517006e71ed00c1d2a50018fa1900';j.dataset.sumoPlatform='wordpress-endurance';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>    <script type="application/javascript">
+      var ajaxurl = "https://healthhitters.com/wp-admin/admin-ajax.php";
+
+      function sumo_add_woocommerce_coupon(code) {
+        jQuery.post(ajaxurl, {
+          action: 'sumo_add_woocommerce_coupon',
+          code: code,
+        });
+      }
+
+      function sumo_remove_woocommerce_coupon(code) {
+        jQuery.post(ajaxurl, {
+          action: 'sumo_remove_woocommerce_coupon',
+          code: code,
+        });
+      }
+
+      function sumo_get_woocommerce_cart_subtotal(callback) {
+        jQuery.ajax({
+          method: 'POST',
+          url: ajaxurl,
+          dataType: 'html',
+          data: {
+            action: 'sumo_get_woocommerce_cart_subtotal',
+          },
+          success: function(subtotal) {
+            return callback(null, subtotal);
+          },
+          error: function(err) {
+            return callback(err, 0);
+          }
+        });
+      }
+    </script>
+    	<div style="display:none">
+	</div>
+<link rel='stylesheet' id='rainmaker_form_style-css'  href='https://healthhitters.com/wp-content/plugins/icegram-rainmaker/classes/../assets/css/form.css?ver=0.33' type='text/css' media='all' />
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20130122'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var es_widget_page_notices = {"es_email_notice":"Please enter email address","es_success_message":"Successfully Subscribed.","es_success_notice":"Your subscription was successful! Kindly check your mailbox and confirm your subscription. If you don't see the email within a few minutes, check the spam\/junk folder.","es_email_exists":"Email Address already exists!","es_error":"Oops.. Unexpected error occurred.","es_invalid_email":"Invalid email address","es_try_later":"Please try after some time","es_ajax_url":"https:\/\/healthhitters.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/email-subscribers/widget/es-widget-page.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201834'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2018Augaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/themes/sydney/js/scripts.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/themes/sydney/js/main.min.js?ver=20180716'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/themes/sydney/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://healthhitters.com/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rm_pre_data = {"ajax_url":"https:\/\/healthhitters.com\/wp-admin\/admin-ajax.php","rm_nonce_field":"0839419b67"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/icegram-rainmaker/classes/../assets/js/main.js?ver=0.33'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icegram_pre_data = {"ajax_url":"https:\/\/healthhitters.com\/wp-admin\/admin-ajax.php","post_obj":{"is_home":true,"page_id":210,"action":"display_messages","shortcodes":[],"cache_compatibility":"no","device":"laptop"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://healthhitters.com/wp-content/plugins/icegram/assets/js/main.min.js?ver=1.10.21'></script>
+<script type="text/javascript">document.body.className = document.body.className.replace("siteorigin-panels-before-js","");</script><script type='text/javascript' src='https://stats.wp.com/e-201834.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.4.2',blog:'131568376',post:'210',tz:'0',srv:'healthhitters.com'} ]);
+	_stq.push([ 'clickTrackerInit', '131568376', '210' ]);
+</script>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 2.462 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-08-23 16:30:49 -->
+
+<!-- super cache -->
