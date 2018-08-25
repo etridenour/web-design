@@ -1,20 +1,16 @@
 {
-  "name": "node",
+  "name": "pg-promises",
   "version": "1.0.0",
   "description": "",
-  "main": "callback-exercises.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
     "bluebird": "^3.5.1",
-    "express": "^4.16.3",
-    "fs-extra": "^7.0.0",
     "pg-promise": "^8.4.6",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "prompt-promise": "^1.0.3"
   }
 }
