@@ -1,7 +1,7 @@
 
-/javascript/node/class-project/node_modules
+javascript/node/class-project/node_modules
 
-/javascript/node/express-exercises/node-modules
+javascript/node/express-exercises/node-modules
 
 javascript/node/promises/node_modules
 
@@ -9,4 +9,6 @@ javascript/node/node_modules
 
 javascript/node/promises/pg-promises/node_modules
 
-javascript/sql/sequelize-stuff/node_modules
+javascript/sql/sequelize-stuff/class/node_modules
+
+javascript/sql/sequelize-stuff/music_db/node_modules
