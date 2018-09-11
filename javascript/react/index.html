@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id='root'>
+
+    </div>
+
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script>
+    // <main>
+    //     <h1>Albums</h1>
+
+    // </main>
+
+    let albums = [
+        {title:'Thriller', artist:'Michael Jackson'},
+        {title:'Off the Wall',artist:'Michael Jackson'},
+        {title:'1989', artist:'Taylor Swift'},
+        {title:'Mixed Up', artist:'The Cure'}
+    ];
+
+    let h1 = React.createElement('h1', null, 'Albums');
+    let lis = albums.map(album=>{
+
+        return React.createElement('li', null, album.title + ' by ' + album.artist);
+
+    })
+    let li = React.createElement('li', null, "Music coming soon!");
+    let ul = React.createElement('ul', {className: 'album-list'}, lis);
+    let footer = React.createElement('footer', null, 'Copyright 2018');
+
+    let main = React.createElement('main', null, [h1, ul, footer]);
+
+    // let main = React.createElement('main', null, ul);
+
+    // ReactDOM.render(h1, document.getElementById('root'));
+    ReactDOM.render(main, document.getElementById('root'));
+;
+</script>
+</body>
+</html>
