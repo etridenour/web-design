@@ -7,7 +7,10 @@ function generateDeck(){
   var symbols = ['∆', 'ß', '£', '§', '•', '$', '÷', 'Ø'];
   var deck = [];
   for (let x = 0; x < 16; x++){
-    deck.push({isFlipped: false, symbol: symbols[x % 8]});
+    deck.push(
+      {isFlipped: false,
+       symbol: symbols[x % 8]
+    });
   }
   shuffle(deck);
   return deck;
@@ -31,9 +34,16 @@ class App extends Component {
     this.state = {deck: generateDeck()};
   }
 
+  pickCard(cardIndex){
+    let newDeck = this.state.deck.map(card => {
+      return {...card}
+    });
+    newDeck[cardIndex].isFlipped = true;
+  }
+
   render() {
     var cardsJSX = this.state.deck.map((card, index) => {
-      return <MemoryCard />
+      return <MemoryCard key = {index} symbol = {card.symbol} isFlipped = {card.isFlipped}/>
     });
 
     return (
@@ -44,31 +54,18 @@ class App extends Component {
         </header>
         
         <div>
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
+          {cardsJSX.slice(0,4)}
         </div>
 
         <div>
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
+          {cardsJSX.slice(4,8)}
+        </div>  
+        <div>
+          {cardsJSX.slice(8,12)}
         </div>
 
         <div>
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
-        </div>
-
-        <div>
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
-          <MemoryCard />
+          {cardsJSX.slice(12,16)}
         </div>
       </div>
     );
