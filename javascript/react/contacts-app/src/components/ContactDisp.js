@@ -3,7 +3,12 @@ import '../ContactDisp.css';
 import Button from '@material-ui/core/Button';
 
 
-  
+function handleDeleteContact(number) {
+    let newContacts = this.state.contacts;
+    let index = newContacts.findIndex(x => x.number === number)
+    newContacts.splice(index, 1)
+    this.setState({ contacts: newContacts });
+};
 
 function ContactDisp (props){
 

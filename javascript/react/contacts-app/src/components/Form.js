@@ -9,6 +9,7 @@ class Form extends Component {
         super(props);
         this.state = {
           contacts: [],
+          contactIndex: ''
         };
       }
      

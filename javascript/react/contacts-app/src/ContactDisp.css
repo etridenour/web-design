@@ -1,5 +1,8 @@
 .contactDisp{
-    
-    border: solid black;
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     float: left;
+    border-radius: 10px;
 }
