@@ -30,11 +30,11 @@ const localLogin = new LocalStrategy(localOptions, function(email, password, don
                 if(!isMatch){
                     return done(null, false)
                 }
-                return(null, user);
+                return done(null, user);
             })
         } else {
             //nothing found
-            done(null, false);
+            return done(null, false);
         }
     })
 })
